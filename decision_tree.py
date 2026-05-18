@@ -301,5 +301,4 @@ class DecisionTreeClassifier:
         else:
             print(f"{indent}{node.feature} ?")
             for val, child in node.children.items():
-                print(f"{indent}  = {val}:")
                 self.print_tree(child, indent + "    ")
