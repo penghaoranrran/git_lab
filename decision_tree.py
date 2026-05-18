@@ -300,5 +300,6 @@ class DecisionTreeClassifier:
             self.print_tree(node.children['>'], indent + "  ")
         else:
             print(f"{indent}{node.feature} ?")
+            print("C4 experimental version")
             for val, child in node.children.items():
                 self.print_tree(child, indent + "    ")
