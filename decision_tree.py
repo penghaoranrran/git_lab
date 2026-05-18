@@ -299,6 +299,7 @@ class DecisionTreeClassifier:
             self.print_tree(node.children['>'], indent + "  ")
         else:
             print(f"{indent}{node.feature} ?")
+            print("B31 experimental version")
             for val, child in node.children.items():
                 print(f"{indent}  = {val}:")
                 self.print_tree(child, indent + "    ")
