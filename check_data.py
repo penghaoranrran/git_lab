@@ -26,3 +26,5 @@ if __name__ == "__main__":
         print("DF2 Columns:", df2.columns.tolist())
         print("DF2 Head:", df2.head(2))
         print("B31 experimental version")
+        print("B2 optimized version")
+        print("C4 experimental version")
