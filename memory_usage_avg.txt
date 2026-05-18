@@ -1,0 +1,3 @@
+file: pagerank.py avg maximum mem: 65.63 MB
+file: pagerank.py avg maximum mem: 51.80 MB
+file: pagerank.py avg maximum mem: 52.24 MB
