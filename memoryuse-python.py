@@ -68,6 +68,7 @@ def main():
     
     outfile=open("memory_usage_avg.txt", "a", encoding='utf-8')
     print(f"file: {script_path} avg maximum mem: {total_memory/epochs:.2f} MB",file=outfile)
+    print("B3 experimental version")
     outfile.close()
 
 if __name__ == "__main__":
