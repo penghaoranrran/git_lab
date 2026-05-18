@@ -296,7 +296,6 @@ class DecisionTreeClassifier:
         if node.threshold is not None:
             print(f"{indent}{node.feature} <= {node.threshold:.3f} ?")
             self.print_tree(node.children['<='], indent + "  ")
-            print(f"{indent}{node.feature} > {node.threshold:.3f} ?")
             self.print_tree(node.children['>'], indent + "  ")
         else:
             print(f"{indent}{node.feature} ?")
